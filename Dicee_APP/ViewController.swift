@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         let diceArray = [#imageLiteral(resourceName: "dice1"),#imageLiteral(resourceName: "dice2"),#imageLiteral(resourceName: "dice3"),#imageLiteral(resourceName: "dice4"),#imageLiteral(resourceName: "dice5"),#imageLiteral(resourceName: "dice6")]
         
         zar1.image = diceArray[Int.random(in: 0...5)]
-        
+        zar2.image = diceArray[Int.random(in: 0...5)]
         
     }
 }
